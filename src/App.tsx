@@ -8,10 +8,16 @@ import './App.css';
 const App: React.FC = () => {
   return (
     <MuiThemeProvider theme={theme}>
-      <div className="App">
+      <div className="app">
         <Header></Header>
-        <Grid className='page-content' container justify='center'>
-          <Grid className='cards-content' container spacing={2} justify='center' xs={12}>
+        <div className='page-content'>
+          <Grid className='card-content' container spacing={0} justify='center' xs={12}>
+            <Grid item sm={4} md={3} lg={2}>
+              <ArticleCard></ArticleCard>
+            </Grid>
+            <Grid item sm={4} md={3} lg={2}>
+              <ArticleCard></ArticleCard>
+            </Grid>
             <Grid item sm={4} md={3} lg={2}>
               <ArticleCard></ArticleCard>
             </Grid>
@@ -25,7 +31,7 @@ const App: React.FC = () => {
               <ArticleCard></ArticleCard>
             </Grid>
           </Grid>
-        </Grid>
+        </div>
       </div>
     </MuiThemeProvider>
   );
