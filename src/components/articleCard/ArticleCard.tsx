@@ -28,10 +28,10 @@ const ArticleCard: React.FC = () => (
       </CardContent>
     </CardActionArea>
     <CardActions>
-      <Button size="small" color="primary">
+      <Button size="small" color="secondary">
         Share
       </Button>
-      <Button size="small" color="primary">
+      <Button size="small" color="secondary">
         Learn More
       </Button>
     </CardActions>
