@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <div className="App">
         <Header></Header>
         <Grid className='page-content' container justify='center'>
-          <Grid className='cards-content' container spacing={2} justify='center'>
+          <Grid className='cards-content' container spacing={2} justify='center' xs={12}>
             <Grid item sm={4} md={3} lg={2}>
               <ArticleCard></ArticleCard>
             </Grid>
