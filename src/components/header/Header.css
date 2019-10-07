@@ -2,3 +2,9 @@
     width: 100%;
     margin-bottom: 1rem;
 }
+
+.sticky-tab-bar {
+    position: "fixed";
+    bottom: "0";
+    width: "100%";
+}
