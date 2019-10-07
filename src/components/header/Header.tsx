@@ -5,16 +5,17 @@ import Toolbar from '@material-ui/core/Toolbar';
 import TypoGraphy from '@material-ui/core/Typography';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import Avatar from '@material-ui/core/Avatar';
+import avatarPicture from '../../images/image.jpg';
 
 const Header: React.FC = () => (
-  <div className="header">
-    <AppBar title="Simons Blog" position="static">
+    <AppBar position="sticky">
       <Toolbar>
-        <TypoGraphy variant="h6">
-            My header
+        <TypoGraphy variant="h3">
+          My header
         </TypoGraphy>
+        <Avatar src={avatarPicture} className="big-avatar" ></Avatar>
       </Toolbar>
-      <div className="sticky-tab-bar">
         <Tabs
           value="irgendwas"
           indicatorColor="primary"
@@ -25,9 +26,8 @@ const Header: React.FC = () => (
           <Tab label="Item Two" />
           <Tab label="Item Three" />
         </Tabs>
-      </div>
     </AppBar>
-  </div>
+
 );
 
 export default Header;

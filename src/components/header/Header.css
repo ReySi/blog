@@ -1,10 +1,4 @@
-.header {
-    width: 100%;
-    margin-bottom: 1rem;
-}
-
-.sticky-tab-bar {
-    position: "fixed";
-    bottom: "0";
-    width: "100%";
+.MuiAvatar-root.big-avatar {
+    width: 80px;
+    height: 80px;
 }
