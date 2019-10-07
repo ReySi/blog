@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
 import './ArticleCard.css'
-import image from '../../images/wallpaper.png';
+import image from '../../images/wallpaper.jpg';
 
 const ArticleCard: React.FC = () => (
     <Card className='article-card'>
