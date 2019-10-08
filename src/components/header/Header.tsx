@@ -9,7 +9,7 @@ import Avatar from '@material-ui/core/Avatar';
 import avatarPicture from '../../images/image.jpg';
 
 const Header: React.FC = () => (
-    <AppBar position="sticky">
+    <AppBar position="sticky" className="blog-header">
       <Toolbar>
         <TypoGraphy variant="h3">
           My header
