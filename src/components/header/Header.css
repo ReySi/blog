@@ -1,8 +1,10 @@
 .MuiAvatar-root.big-avatar {
-    width: 80px;
-    height: 80px;
+    width: 45px;
+    height: 60px;
 }
-
-.blog-header {
-    margin-bottom: 2rem;
+.MuiToolbar-root {
+    justify-content: center;
+}
+.sticky {
+    position: sticky;
 }

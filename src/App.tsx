@@ -39,6 +39,21 @@ const App: React.FC = () => {
             <Grid item sm={4} md={3} lg={2}>
               <ArticleCard></ArticleCard>
             </Grid>
+            <Grid item sm={4} md={3} lg={2}>
+              <ArticleCard></ArticleCard>
+            </Grid>
+            <Grid item sm={4} md={3} lg={2}>
+              <ArticleCard></ArticleCard>
+            </Grid>
+            <Grid item sm={4} md={3} lg={2}>
+              <ArticleCard></ArticleCard>
+            </Grid>
+            <Grid item sm={4} md={3} lg={2}>
+              <ArticleCard></ArticleCard>
+            </Grid>
+            <Grid item sm={4} md={3} lg={2}>
+              <ArticleCard></ArticleCard>
+            </Grid>
           </Grid>
         </div>
       </div>
