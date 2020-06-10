@@ -7,6 +7,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Avatar from '@material-ui/core/Avatar';
 import avatarPicture from '../../images/image.jpg';
+import Sticky from 'react-sticky-el';
 
 const Header: React.FC = () => (
     <AppBar position="relative">
@@ -16,17 +17,19 @@ const Header: React.FC = () => (
         </TypoGraphy>
         <Avatar src={avatarPicture} className="big-avatar"></Avatar>
       </Toolbar>
-      <Tabs
-        value="irgendwas"
-        indicatorColor="primary"
-        textColor="primary"
-        centered
-        className="sticky"
-      >
-        <Tab label="Item One" />
-        <Tab label="Item Two" />
-        <Tab label="Item Three" />
-      </Tabs>
+      <Sticky>
+        <Tabs
+          value="irgendwas"
+          indicatorColor="primary"
+          textColor="primary"
+          centered
+          className="nav-bar"
+        >
+          <Tab label="Item One" />
+          <Tab label="Item Two" />
+          <Tab label="Item Three" />
+        </Tabs>
+      </Sticky>
     </AppBar>
 
 );
